@@ -1,61 +1,158 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
 body {
-  background-color: #EEEEEE;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 17px;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
 }
 
 h1 {
-  font-size: 32px;
+  margin: 0 auto 20px auto;
+  padding-top: 100px;
+  font-family: 'Radley', serif;
+  font-size: 4rem;
+  color: #F7F5F2;
 }
 
-h1, h2 {
+h2 {
+  margin-top: 20px;
+  font-size: 2rem;
+  color: #FF7272;
+}
+
+ /* ctrl + / or ctrl K ctrl C give class to h2 etc or create div aorund them when using the padding, in order to avoid problems in  */
+
+h3 {
   color: #8D8DAA;
-  font-family: 'Roboto', sans-serif;
 }
 
 a {
-  color: #F56D91;
+  color: #11999E;
+}
+
+p {
+  width: 50%;
+  margin: 30px auto;
+}
+
+hr {
+  border-top: 7px dotted #DFDFDE;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  width: 10%;
+}
+
+.top-c {
+  background-color: #8D8DAA;
+  margin-top: -70px;
+  padding-bottom: 24px;
+  position: relative;
+}
+
+.top-c h2{
+  font-size: 1,5rem;
+  color: #F7F5F2;
+}
+
+.middle-c {
+  background-color: #F7F5F2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-p-one {
+  margin: 0;
+  width: 100%;
+}
+
+.skill-p-two {
+  margin: 0;
+  width: 100%;
+}
+
+.icon {
+  margin-top: 20px;
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+}
+
+.computer-one {
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+  clear: right;
+}
+
+.flower {
+  width: 25%;
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+}
+
+.contact-me {
+
+}
+
+.bottom-c {
+  margin-top: 30px;
+  padding: 50px 0;
+  background-color: #8D8DAA;
+}
+
+.contact-link {
+  margin-right: 20px;
+  color: #F7F5F2;
   text-decoration: none;
 }
 
-a:hover {
-  color: black;
+.contact-link:hover {
+  color: #FF7272;
 }
 
-div {
-  display: block;
+.bottom-p {
+  margin: 30px 0 0;
+  color: #EAF6F6;
+  margin: 30px auto 0 auto;
 }
 
-.container {
-  width: 700px;
-  margin: 40px auto;
-}
-
-.card {
-  background-color: white;
-  padding: 40px;
-  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
-  border-radius: 4px;
-  margin: 20px 0px;
+.button {
+  background: #E63E6D;
+  background-image: -webkit-linear-gradient(top, #E63E6D, #B42B51);
+  background-image: -moz-linear-gradient(top, #E63E6D, #B42B51);
+  background-image: -ms-linear-gradient(top, #E63E6D, #B42B51);
+  background-image: -o-linear-gradient(top, #E63E6D, #B42B51);
+  background-image: -webkit-gradient(to bottom, #E63E6D, #B42B51);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #F7F6FC;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+  -webkit-box-shadow: 1px 1px 20px 0 #FF449F;
+  -moz-box-shadow: 1px 1px 20px 0 #FF449F;
+  box-shadow: 1px 1px 20px 0 #FF449F;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #FF449F 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
   text-align: center;
 }
 
-.profile-pic {
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-}
-
-.btn-pink {
-  background-color: #F56D91;
-  color: white;
-  padding: 15px 20px;
-  border-radius: 4px;
-}
-
-.btn-pink:hover {
-  background-color: black;
-  color: white;
+.button:hover {
+  background: #FF449F;
+  border: solid #FF449F 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
 }
