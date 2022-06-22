@@ -55,7 +55,8 @@ hr {
 }
 
 .middle-c {
-  background-color: #F7F5F2;
+  background-color: red;
+  border: 1px solid red;
 }
 
 .skill-row {
