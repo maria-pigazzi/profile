@@ -55,7 +55,8 @@ hr {
 }
 
 .middle-c {
-  background-color: #F7F5F2;
+  background-color: red;
+  border: 1px solid red;
 }
 
 .skill-row {
@@ -94,6 +95,10 @@ hr {
   height: 200px;
   float: left;
   margin-right: 20px;
+}
+
+.contact-me {
+
 }
 
 .bottom-c {
